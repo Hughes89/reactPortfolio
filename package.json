@@ -8,7 +8,8 @@
     "build": "webpack -p --config webpack.production.config.js --progress --colors",
     "start": "node server/server.js",
     "dev-web": "webpack-dev-server --config webpack.dev.config.js --progress --colors",
-    "dev-server": "nodemon server/server.js"
+    "dev-server": "nodemon server/server.js",
+    "postinstall": "npm run build"
   },
   "author": "Mike Hughes",
   "license": "ISC",
