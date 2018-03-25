@@ -34,8 +34,8 @@ module.exports = {
         }
       },
       {
-        test: /\.css$/,
-        loader: 'style!css'
+        test: /\.(s*)css$/,
+        loader: 'style!css!sass'
       }
     ],
   },

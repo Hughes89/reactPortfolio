@@ -4,7 +4,8 @@ import { Slide } from './Slide/Slide';
 import { Skills } from './Skills/Skills';
 import { Projects } from './Projects/Projects';
 import { About } from './About/About';
-import './app.css';
+import { Contact } from './Contact/Contact';
+import './app.scss';
 
 
 const App = () => {
@@ -13,7 +14,7 @@ const App = () => {
     {color: '#f9f9f9', image: false, component: <Skills />},
     {color: '#c6c6c6', image: false, component: <Projects />},
     {color: '#f9f9f9', image: false, component: <About />},
-    {color: '#c6c6c6', image: false, component: '<div>CONTACTME</div>'}
+    {color: '#c6c6c6', image: false, component: <Contact />}
     ];
   return (
     <div>

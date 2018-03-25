@@ -2,7 +2,7 @@ import React from 'react';
 import skills from './skillList';
 import Skill from './Skill/Skill';
 
-import './Skills.css';
+import './Skills.scss';
 
 export const Skills = () => {
   let count = 0;

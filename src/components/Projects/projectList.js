@@ -2,10 +2,10 @@ const projects = [
   {
     title: 'Sushiii',
     img: 'https://c1.staticflickr.com/3/2837/33595327471_3b8fc7eb03_o.png',
-    site: 'http://sushiii.me/',
+    site: undefined,
     github: 'https://github.com/Hughes89/sushi',
     description: 'Community based portfolio for developers to display projects in a clean and comprehensive way.',
-    tech: ['Angular', 'Node', 'MySQL'],
+    tech: [{Angular: 'devicon-angularjs-plain'}, {Node: 'devicon-nodejs-plain'}, {MySQL: 'devicon-mysql-plain'}],
   },
       {
     title: 'Zeus Reviews',
@@ -13,7 +13,7 @@ const projects = [
     site: 'http://zeus-reviews.herokuapp.com/',
     github: 'https://github.com/Zeus-HatersGonaHate/Zeus-HatersGonaHate',
     description: 'Website for writing reviews about movies and television shows and interacting with other reviews.',
-    tech: ['Angular', 'Node', 'MongoDB']
+    tech: [{AngularJs: 'devicon-angularjs-plain'}, {Node: 'devicon-nodejs-plain'}, {MongoDB: 'devicon-mongodb-plain'}]
   },
       {
     title: 'Scripty + Dashreactor',
@@ -21,7 +21,7 @@ const projects = [
     site: undefined,
     github: 'https://github.com/Hughes89/scripty',
     description: 'Mobile app for learning programming lessons, and a dashboard for admins to update/add/delete lessons.',
-    tech: ['React', 'Node', 'MongoDB'],
+    tech: [{'React/React-Native':'devicon-react-original-wordmark'}, {Node: 'devicon-nodejs-plain'}, {MongoDB: 'devicon-mongodb-plain'}],
   },
       {
     title: 'Jacked Reactor',
@@ -29,7 +29,7 @@ const projects = [
     site: 'https://jackedreactor.herokuapp.com/',
     github: 'https://github.com/Hughes89/JackedReactor',
     description: 'Fitness tracking app focused on tracking the user’s strength progression.',
-    tech: ['Angular', 'Node', 'MongoDB']
+    tech: [{AngularJs: 'devicon-angularjs-plain'}, {Node: 'devicon-nodejs-plain'}, {MongoDB: 'devicon-mongodb-plain'}]
   }
 ];
 

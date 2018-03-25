@@ -2,7 +2,7 @@ import React from 'react';
 import projects from './projectList';
 import { Project } from './Project/Project';
 
-import './Projects.css';
+import './Projects.scss';
 
 export const Projects = () => {
   return (

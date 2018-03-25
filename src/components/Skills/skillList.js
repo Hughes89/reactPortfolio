@@ -18,81 +18,99 @@ const skills = [{
 }, 
 {
   id: "s4",
+  name: "Sass",
+  percentage: 75,
+  color: "#c5538c"
+},
+{
+  id: "s5",
   name: "jQeury", 
   percentage: 90,
   color: "#D46271"
 }, 
 {
-  id: "s5",
-  name: "Angular", 
-  percentage: 90,
+  id: "s6",
+  name: "AngularJs", 
+  percentage: 95,
   color: "#6AB083"
 }, 
 {
-  id: "s6",
-  name: "Angular 2", 
+  id: "s7",
+  name: "Angular", 
   percentage: 85,
   color: "#A4DD80"
 }, 
 {
-  id: "s7",
+  id: "s8",
   name: "React", 
   percentage: 90,
   color: "#F6B277"
 },{
-  id: "s8",
+  id: "s9",
   name: "React Native", 
   percentage: 80,
   color: "#aec5e6"
 },{
-  id: "s9",
+  id: "s10",
   name: "Redux",
   percentage: 65,
   color: "#8628be"
 },{
-  id: "s10",
+  id: "s11",
   name: "Backbone", 
   percentage: 65,
   color: "#6EA4BF"
 }, 
 {
-  id: "s11",
+  id: "s12",
   name: "Node/Express", 
-  percentage: 95,
+  percentage: 90,
   color: "#EF767A"
 }, 
 {
-  id: "s12",
+  id: "s13",
+  name: "SQL Server", 
+  percentage: 90,
+  color: "#1d78d7"
+},
+{
+  id: "s14",
+  name: "MySQL", 
+  percentage: 90,
+  color: "#A1CF6B"
+},
+{
+  id: "s15",
+  name: "Oracle", 
+  percentage: 90,
+  color: "#e93f34"
+},
+{
+  id: "s16",
   name: "MongoDB", 
   percentage: 95,
   color: "#FFBA49"
 }, 
 {
-  id: "s13",
-  name: "MySQL", 
-  percentage: 90,
-  color: "#A1CF6B"
-}, 
-{
-  id: "s14",
+  id: "s17",
   name: "Git", 
   percentage: 95,
   color: "#FFE066"
 }, 
 {
-  id: "s15",
+  id: "s18",
   name: "Gulp", 
   percentage: 85,
   color: "#63CCCA"
 }, 
 {
-  id: "s16",
+  id: "s19",
   name: "Webpack",
   percentage: 85,
   color: "#4a9ccc"
 },
 {
-  id: "s17",
+  id: "s20",
   name: "Mocha/Chai", 
   percentage: 65,
   color: "#397367"

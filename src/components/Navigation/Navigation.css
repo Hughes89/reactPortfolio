@@ -1,9 +1,10 @@
 #header {
-width: 100%;
-background-color: rgba(0, 0, 0, 0.44);
-height: 80px;
-position: fixed;
-margin-top: 30px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.44);
+  height: 80px;
+  position: fixed;
+  margin-top: 30px;
+  z-index: 1000;
 }
 
 .center { 
