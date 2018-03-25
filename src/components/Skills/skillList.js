@@ -24,7 +24,7 @@ const skills = [{
 },
 {
   id: "s5",
-  name: "jQeury", 
+  name: "jQuery", 
   percentage: 90,
   color: "#D46271"
 }, 
