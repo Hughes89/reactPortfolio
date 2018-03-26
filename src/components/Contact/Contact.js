@@ -11,18 +11,16 @@ export const Contact = () => {
   };
 
   const updateField = (e, fieldName) => {
-    console.log('EVENT', e.target.value)
-    console.log('FIELD', field);
     field[fieldName] = e.target.value;
   };
 
   const isDisabled = () => {
-    return field.name.length > 0 && field.email.length > 0 && field.message.length > 0;
+    return field.name.length > 1 && field.email.length > 1 && field.message.length > 1;
   };
 
   const sendMessage = () => {
     console.log(field)
-    if (!isDisabled()) {
+    if (isDisabled()) {
       console.log('submit');
     }
   };
@@ -32,7 +30,7 @@ export const Contact = () => {
       <h1>Contact</h1>
       <div className="contact-content">
       <p>If you wanna get in touch, talk to me about a project collaboration or just say hi. Simply fill out the form below or just shoot an email to <a href="mailto:mik3h89@gmail.com">mik3h89@gmail.com</a>.</p>
-      <div className="contact-form">
+      {/* <div className="contact-form">
         <div className="contact-label">
           <label htmlFor="fullname"><span>Full Name</span></label>
         </div>
@@ -58,7 +56,7 @@ export const Contact = () => {
       </div>
       <div className="center">
         <button className="contact-button" onClick={ () => sendMessage()}>Send Message</button>
-      </div>
+      </div> */}
       <p>Of course you can always find me on GitHub and LinkedIn.<br />
       <span className="social-icon">
         <a href="https://github.com/Hughes89" target="blank"><i className="fa fa-github fa-2x" aria-hidden="true" title="Github"></i></a>
