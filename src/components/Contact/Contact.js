@@ -29,7 +29,7 @@ export const Contact = () => {
     <div className="contact-container">
       <h1>Contact</h1>
       <div className="contact-content">
-      <p>If you want to get in touch, talk to me about a project collaboration, or just say hi. Simply shoot an email to <a href="mailto:mik3h89@gmail.com">mik3h89@gmail.com</a>.</p>
+      <p>If you want to get in touch, talk to me about a project collaboration, or just say hi, simply shoot an email to <a href="mailto:mik3h89@gmail.com">mik3h89@gmail.com</a>.</p>
       {/* <div className="contact-form">
         <div className="contact-label">
           <label htmlFor="fullname"><span>Full Name</span></label>
